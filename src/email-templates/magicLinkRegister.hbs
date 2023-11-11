@@ -1,0 +1,16 @@
+<html>
+  <body>
+    <p>Hello {{name}},</p>
+    <p>
+      Thank You for registering,
+      You have requested a magic link to authenticate your account.
+      Please click on the following link to authenticate:
+    </p>
+    <p>
+      <a href="{{authenticationUrl}}?token={{token}}">Authenticate</a>
+    </p>
+    <p>
+      If you did not request this magic link, please ignore this email.
+    </p>
+  </body>
+</html>
